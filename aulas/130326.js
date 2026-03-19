@@ -11,7 +11,7 @@ function resutadoDivisaoSocio(lucro,lucro2){
 }
 
 function calculadora(ari,a,b){
-    switch(ari){
+    switch(ari){ 
         case '+':
             resultado = a + b;
             break
@@ -26,6 +26,6 @@ function calculadora(ari,a,b){
             break;
         default:
             resultado = ' Operador invalido ';
-                      
+
     }
 }
