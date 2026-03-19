@@ -16,5 +16,16 @@ function calculadora(ari,a,b){
             resultado = a + b;
             break
         case '-':
+            resultado = a - b;
+            break;
+        case '*':
+            resultado = a * b;
+            break;
+        case '/':
+            resultado = a / b;
+            break;
+        default:
+            resultado = ' Operador invalido ';
+                      
     }
 }
